@@ -2,8 +2,8 @@ body {
     font-family: fantasy, sans-serif;
     text-align: center;
     background-color: rgb(189, 213, 220);
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
+    margin: 0;
+    padding: 0;
 }
 
 #title {
@@ -25,10 +25,22 @@ body {
 }
 
 #spotify {
-    margin-top: -40px; /* Adjust the negative margin as needed to move it upwards */
-    max-width: 100%; /* Ensure the iframe doesn't exceed the screen width */
+    margin-top: -40px;
+    max-width: 100%;
 }  
 
 #quote {
     color: rgb(122, 110, 110);
+}
+
+#discover a {
+    color: rgb(189, 170, 170); /* Change the link color to red or your desired color */
+    text-decoration: none; /* Remove underline */
+}
+#discover {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    padding: 10px;
+    border-radius: 5px;
 }
